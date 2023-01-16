@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Referral page</title>
+    <script src="https://kit.fontawesome.com/d9910aa335.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+    
+        <header>
+            <div class="first_wrapper">
+                <div class="header_logo">
+                    <div class="candidates_label">
+                        <p>Лица</p> 
+                        <img src="candidates_lable.svg" alt="label"> 
+                        <p>Кандидаты</p>
+                    </div>
+                    <nav>
+                        <a href="#">Найти кандидата</a>
+                        <a href="#">Попасть в базу</a>
+                        <a href="#">О сервисе</a>
+                        <a href="#">Портал</a>
+                    </nav>
+                </div>
+                <div class="header_search">
+                    <div class="main_search">
+                        <input type="text" name="text" class="search" placeholder="Поиск">
+                        <button class="search_button" type="submit"> <img src="search.svg" alt="Search"></button>
+                    </div>
+                </div>
+                <!-- <div>
+                <button class="search_mobile" type="submit"> <img src="search.svg" alt="Search"></button>
+                </div>  -->
+                <div class="dropdown">
+                    <div class="dropdown_img">
+                        <a href="#profile_popup" class="profile_name">Иннокентий</a>
+                        <a class="innokentii" href="#"><img src="icon.svg" alt="icon"></a> 
+                    </div>
+                    <div class="dropdown-content">
+                    <a href="#">Посмотреть профиль</a>
+                    <a href="#">Выйти</a>
+                    </div>
+                </div>
+                 <div class="navbar" id="navbar">
+                    
+                    <span class="hamburher-line"></span>
+                    <span class="hamburher-line"></span>
+                    <span class="hamburher-line"></span>
+                    
+                </div>
+            </div> 
+        </header>
+
+        <div id="profile_popup" class="profile_popup">
+            <div class="profile_popup_body">
+                <div class="profile_popup_content">
+                    <div class="profile_popup_content_logo">
+                        <div class="candidates_label1">
+                            <p>Лица</p> 
+                            <img src="candidates_lable.svg" alt="label"> 
+                            <p>Кандидаты</p>
+                        </div>
+                    </div>
+                    <p class="profile_popup_content_title">Получить доступ к базе <br> проверенных кандидатов</p>
+                    <p class="profile_popup_content_email_title">Email</p>
+                    <form class="profile_popup_content_email">
+                        <input type="email" name="email" >
+                    </form>
+                    <p class="profile_popup_content_password_title">Пароль</p>
+                    <form class="profile_popup_content_password">
+                        <input type="password" >
+                    </form>
+                    <p class="profile_popup_content_forgot_password">Забыли пароль?</p>
+                    <div class="profile_popup_buttons">
+                        <a href="#">Войти</a>
+                        <a href="#registration_popup">Зарегистрироваться</a>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+        <div id="registration_popup" class="registration_popup">
+            <div class="registration_popup_body">
+                <div class="registration_popup_content">
+                    <div class="registration_popup_content_logo">
+                        <div class="candidates_label1">
+                            <p>Лица</p> 
+                            <img src="candidates_lable.svg" alt="label"> 
+                            <p>Кандидаты</p>
+                        </div>
+                    </div>
+                    <p class="registration_popup_content_title">Регистрация</p>
+                    <p class="registration_popup_content_name_title">Имя<sup>*</sup></p>
+                    <form class="registration_popup_content_name">
+                        <input class="reg_form" type="text" name="username" >
+                    </form>
+                    <p class="registration_popup_content_name_title">Email</p>
+                    <form class="registration_popup_content_name">
+                        <input class="reg_form" type="email" name="email" >
+                    </form>
+                    <p class="registration_popup_content_name_title">Пароль<sup>*</sup></p>
+                    <form class="registration_popup_content_name">
+                        <input class="reg_form" type="password" >
+                    </form>
+                    <p class="registration_popup_content_name_title">Повторите пароль</p>
+                    <form class="registration_popup_content_name">
+                        <input class="reg_form" type="password" >
+                    </form>
+                   
+                    <div class="registration_popup_button">
+                        <a href="#">Зарегистрироваться</a>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+
+        <section class="hr">
+            <hr class="line">
+        </section>
+        <section class="categories">
+            <div class="categories_main">
+                <a href="#">Маркетологи</a>
+                <a href="#">Backend-разработчики</a>
+                <a href="#">Дизайнеры</a>
+                <a href="#">Менеджеры по продажам</a>
+                <a href="#">Ещё</a>
+            </div>
+        </section>
+
+
+
+
+
+    <section class="subcategories">
+        <div class="subcategories_main">
+            <a href="#">Интернет-маркетинг</a>
+            <a href="#">Контент-марктетинг</a>
+            <a href="#">Перфоманс-маркетинг</a>
+            <a href="#">PR</a>
+        </div>
+    </section>
+
+
+
+    <section class="candidate_cards">
+        <div class="candidate_cards_content">
+            <div class="candidate">
+                <div class="job_type">
+                    <p class="remote_job">part-time</p>
+                    <p class="office_job">full-time</p>
+                </div>
+                <img src="old_sergei.jpg" alt="Sergei">
+                <div class="candidate_main_info">  
+                    <p class="candidate_title">Сергей Васильев</p>
+                    <p class="candidate_main">QA-тестировщик</p>
+                </div>
+                <div class="candidate_aditional">
+                    <p class="candidate_experience">Опыт: более 5 лет</p>
+                    <p class="candidate_salary">Зарплата: от 1000 €</p>
+                </div>
+                <a href="#">Посмотреть справку</a>
+            </div>
+            <div class="candidate">
+                <div class="job_type">
+                    <p class="remote_job">part-time</p>
+                    <p class="office_job">full-time</p>
+                </div>
+                <img src="Tatiana.jpg" alt="Tatiana">
+                <div class="candidate_main_info">  
+                    <p class="candidate_title">Татьяна Петрова</p>
+                    <p class="candidate_main">QA-тестировщик</p>
+                </div>
+                <div class="candidate_aditional">
+                    <p class="candidate_experience">Опыт: более 5 лет</p>
+                    <p class="candidate_salary">Зарплата: от 1500 €</p>
+                </div>
+                <a href="#">Посмотреть справку</a>
+            </div>
+            <div class="candidate">
+                <div class="job_type">
+                    <p class="remote_job">part-time</p>
+                    <p class="office_job">full-time</p>
+                </div>
+                <img src="young_sergei.jpg" alt="Sergei">
+                <div class="candidate_main_info">  
+                    <p class="candidate_title">Сергей Васильев</p>
+                    <p class="candidate_main">QA-тестировщик</p>
+                </div>
+                <div class="candidate_aditional">
+                    <p class="candidate_experience">Опыт: более 5 лет</p>
+                    <p class="candidate_salary">Зарплата: от 1000 €</p>
+                </div>
+                <a href="#">Посмотреть справку</a>
+            </div>
+            <div class="candidate">
+                <div class="job_type">
+                    <p class="remote_job">part-time</p>
+                    <p class="office_job">full-time</p>
+                </div>
+                <img src="no_sergei.jpg" alt="Sergei">
+                <div class="candidate_main_info">  
+                    <p class="candidate_title">Сергей Васильев</p>
+                    <p class="candidate_main">QA-тестировщик</p>
+                </div>
+                <div class="candidate_aditional">
+                    <p class="candidate_experience">Опыт: более 5 лет</p>
+                    <p class="candidate_salary">Зарплата: от 1000 €</p>
+                </div>
+                <a href="#">Посмотреть справку</a>
+            </div>
+            <div class="candidate">
+                <div class="job_type">
+                    <p class="remote_job">part-time</p>
+                    <p class="office_job">full-time</p>
+                </div>
+                <img src="Tatiana.jpg" alt="Tatiana">
+                <div class="candidate_main_info">  
+                    <p class="candidate_title">Татьяна Петрова</p>
+                    <p class="candidate_main">QA-тестировщик</p>
+                </div>
+                <div class="candidate_aditional">
+                    <p class="candidate_experience">Опыт: более 5 лет</p>
+                    <p class="candidate_salary">Зарплата: от 1500 €</p>
+                </div>
+                <a href="#">Посмотреть справку</a>
+            </div>
+            <div class="candidate">
+                <div class="job_type">
+                    <p class="remote_job">part-time</p>
+                    <p class="office_job">full-time</p>
+                </div>
+                <img src="no_sergei.jpg" alt="Sergei">
+                <div class="candidate_main_info">  
+                    <p class="candidate_title">Сергей Васильев</p>
+                    <p class="candidate_main">QA-тестировщик</p>
+                </div>
+                <div class="candidate_aditional">
+                    <p class="candidate_experience">Опыт: более 5 лет</p>
+                    <p class="candidate_salary">Зарплата: от 1000 €</p>
+                </div>
+                <a href="#">Посмотреть справку</a>
+            </div>
+        </div>
+        <div class="candidates_filters">
+            <p class="candidates_filters_title">Фильтры</p>
+            <div class="candidates_filter">
+                <div class="filter_img">
+                    <img  src="filters.svg" alt="filters">
+                    <p> 2 Параметра</p>
+                </div>
+                <p>Очистить всё</p>
+            </div>
+            <div class="candidates_main_filter">
+                
+                <div class="filter_range">
+                    <p class="filter">Зарплата</p>
+                    <form class="filter_range_content">
+                    <input type="text" placeholder="от">
+                    <input type="text" placeholder="до">
+                    </form>
+                </div>
+                
+                <div class="filter_range">
+                    <p class="filter">Возраст</p>
+                    <form class="filter_range_content">
+                    <input type="age" min="20" name="age" placeholder="20" >
+                    <input type="age" max="50" name="age" placeholder="50">
+                    </form>
+                </div>
+                <div class="filter_gender">
+                    <form>
+                    <input class="gender" type="radio" value="all" checked name="gender">Все
+                    </form>
+                    <form>
+                    <input class="gender" type="radio" value="mens" disabled name="gender">Мужчины
+                    </form>
+                    <form>
+                    <input class="gender" type="radio"  value="womens" disabled name="gender">Женщины
+                    </form>
+                </div>
+                
+            </div>
+            <a  class="filter_submit" href="#">Применить</a>
+         </div>
+         
+    </section>
+    <div class="pagination">
+        <div class="pagination_main">
+            <p>1 2 3 4 5 ... 50</p>
+            <p>Показать ещё</p>
+        </div>
+     </div>
+    
+
+
+
+
+
+<footer>
+            <div class="footer_wrapper">
+                <div class="links_localization">
+                    <div class="footer_column">
+                        <p>ЛИЦА.КАНДИДАТЫ</p>
+                        <a href="#">Найти кандидата</a>
+                        <a href="#">Попасть в базу</a>
+                        <a href="#">О сервисе</a>
+                    </div>
+                    <div class="footer_column">
+                        <p>ЛИЦА.РАБОТА</p>
+                        <a href="#">Рекрутинг</a>
+                        <a href="#">Конструктор подбора</a>
+                        <a href="#">Аналитика подбора</a>
+                    </div>
+                    <div class="footer_column">
+                        <p>O ПОРТАЛЕ</p>
+                        <a href="#">Поддержка</a>
+                        <a href="#">Обновления</a>
+                        <a href="#">Контакты</a>
+                    </div>
+                </div>
+                <div>
+                    <hr class="line">
+                    <div class="social_links">
+                        <p>ООО «ЛИЦА»</p>
+                        <div class="copyright">
+                            <a href="#">Реквизиты</a>
+                            <a href="#">Правовая информация</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </footer>
+</body>
+</html>
